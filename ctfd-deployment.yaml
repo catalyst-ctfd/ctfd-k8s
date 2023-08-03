@@ -67,7 +67,7 @@ spec:
           value: /var/uploads
         - name: WORKERS
           value: "1"
-        image: rdctf/ctfd
+        image: ctfd/ctfd:3.5.3
         imagePullPolicy: ""
         name: ctfd
         resources: {}
